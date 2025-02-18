@@ -1,8 +1,9 @@
-# 내 풀이
 def solution(my_string, letter):
+    answer = ''
 
-    for char in letter:
-        answer = my_string.replace(char, '')
+    for char in my_string:
+        if char != letter:
+            answer = answer + char
 
     return answer
 

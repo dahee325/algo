@@ -1,8 +1,7 @@
-# 내 풀이
 def solution(my_string, letter):
+    answer = ''
 
-    for char in letter:
-        answer = my_string.replace(char, '')
+    answer = my_string.replace(letter, '')
 
     return answer
 
