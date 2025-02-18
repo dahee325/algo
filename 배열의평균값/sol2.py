@@ -1,7 +1,14 @@
 def solution(numbers):
     answer = 0
 
-    answer = sum(numbers) / len(numbers)
+    total = 0
+    i = 0
+
+    for number in numbers:
+        total = total + number # 총합
+        i = i + 1 # 갯수
+
+    answer = total / i
 
     return answer
 

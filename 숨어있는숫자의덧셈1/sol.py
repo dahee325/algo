@@ -9,6 +9,7 @@ def solution(my_string):
 
     return sum(answer)
 
+#못 풀었당.....
 
 print(solution('aAb1B2cC34oOp'))
 print(solution('1a2b3c4d123'))

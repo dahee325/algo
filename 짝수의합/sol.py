@@ -8,5 +8,5 @@ def solution(n):
 
     return answer
 
-print(solution(10))
-print(solution(4))
+print(solution(10)) # => 30
+print(solution(4)) # => 6
