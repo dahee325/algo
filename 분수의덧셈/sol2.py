@@ -1,9 +1,5 @@
-import math
-
 def solution(numer1, denom1, numer2, denom2):
-    math.gcd() # 최대공약수
     answer = []
-    
     if denom1 == denom2:
         num = numer1 + numer2
         den = denom1 + denom2
