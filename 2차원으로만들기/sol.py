@@ -1,5 +1,7 @@
+import numpy as np
 def solution(num_list, n):
-    answer = [[]]
+    
+    answer = num_list.reshape(num_list // n , n)
     return answer
 
 
